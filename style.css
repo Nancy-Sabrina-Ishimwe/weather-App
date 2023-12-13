@@ -89,3 +89,39 @@ body{
 .humidity, .wind{
     font-size: 27px;
 }
+
+/* CSS for screens larger than 600px */
+.container {
+    width: 450px;
+    background: linear-gradient(130deg, pink, rgb(184, 66, 86));
+    color:white;
+    margin: 100px auto;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+ }
+ 
+ /* CSS for screens smaller than or equal to 600px */
+ @media (max-width: 600px) {
+  .container {
+   width: 100%;
+   padding: 20px;
+  }
+ 
+  .search input {
+   font-size: 16px;
+  }
+ 
+  .weather h1 {
+   font-size: 40px;
+  }
+ 
+  .weather h2 {
+   font-size: 20px;
+  }
+ 
+  .humidity, .wind {
+   font-size: 20px;
+  }
+ }
+ 
